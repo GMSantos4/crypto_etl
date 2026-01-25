@@ -7,7 +7,7 @@ def fetch_crypto_data():
     params={
         'vs_currency':'usd',
         'order':'market_cap_desc',
-        'per_page':100,
+        'per_page':25,
         'page':1
     }
 
