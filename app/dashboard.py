@@ -39,4 +39,4 @@ if coin:
         with tab1:
             st.line_chart(data, height=250)
     else:
-        st.warning(f"Sem dados para a moeda {coin}")
+        st.warning(f"No data for {coin}")
