@@ -1,0 +1,12 @@
+services:
+  crypto-pipeline:
+    build: .
+    container_name: crypto_etl_container
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - TZ:America/Sao_Paulo
+      - EXECUTION_MODE=DAILY
+    restart: always
