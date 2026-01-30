@@ -26,7 +26,7 @@ CRYPTO_ETL
 
 In the figure bellow you can see how each file in this structure interact one with each other.
 
-![](assets\sumup-image.png)
+![architecture-image](assets/sumup-image.png)
 
 # Technologies
 
