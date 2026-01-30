@@ -1,3 +1,4 @@
 venv
 data/crypto_db.db
 .dockerignore
+assets/*.excalidraw
