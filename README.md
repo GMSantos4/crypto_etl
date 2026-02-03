@@ -1,6 +1,8 @@
 # crypto_etl
 
-A simple data engineering project from CoinGecko API to streamlit.
+A data engineering project that builds a pipeline from the CoinGecko API to a Streamlit dashboard. Since it utilizes the CoinGecko Public API, it is rate-limited by IP address. This ensures the application remains free and easy to set up without requiring personal API keys.
+
+The Streamlit dashboard displays time series information for the top 25 cryptocurrencies by market cap.
 
 # Quick Start
 
