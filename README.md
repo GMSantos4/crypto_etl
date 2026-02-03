@@ -20,7 +20,7 @@ docker compose up --build
 docker compose up
 ```
 
-The application will be exposed in the port 8501. You only to access your `localhost:8501`. 
+The application will be exposed in the port 8501. You only need to access in your browser the address `localhost:8501`. 
 
 If you want to finish the application, do a `CTRL-C` in the CLI. It will stop the container gracefully. After that, just run the command bellow:
 
